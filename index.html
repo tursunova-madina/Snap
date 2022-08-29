@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/stylesheet.css">
+    <title>Homework - 9</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+                <ul class="menu menu_mobile ">
+                    <li><a class="menuItem" href="#">Features</a> <img src="./images/icon-arrow-down.svg" alt="down"
+                            class="down_icon">
+                        <ul class="features__menu">
+                            <li><img src="./images/icon-todo.svg" alt="todo"> <a href="#">Todo List</a></li>
+                            <li><img src="./images/icon-calendar.svg" alt="todo"> <a href="#">Calendar</a></li>
+                            <li><img src="./images/icon-reminders.svg" alt="todo"> <a href="#">Reminders</a></li>
+                            <li><img src="./images/icon-planning.svg" alt="todo"> <a href="#">Planning</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menuItem" href="#">Company</a> <img src="./images/icon-arrow-down.svg" alt="down"
+                            class="down_icon">
+                        <ul class="com_nav" id="myDropdown2_mobile">
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menuItem" href="#">Careers</a></li>
+                    <li><a class="menuItem" href="#">About</a></li>
+                    <a href="#">Login</a>
+                    <button class="btn"> Register</button>
+                </ul>
+                <button class="hamburger mobile">
+                    <i class="menuIcon material-icons"><img src="./images/icon-menu.svg" alt="menu"></i>
+                    <i class="closeIcon material-icons"><img src="./images/icon-close-menu.svg" alt="menu"></i>
+                </button>
+            </nav>
+            <nav class="nav_desktop">
+                <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+                <ul class="nav_bar ">
+                    <li><a id="features" onclick="myFunction()" class="menuItem" href="#">Features</a> <img
+                            src="./images/icon-arrow-down.svg" alt="down" class="down_icon">
+                        <ul class="features__menu" id="myDropdown">
+                            <li><img src="./images/icon-todo.svg" alt="todo"> <a href="#">Todo List</a></li>
+                            <li><img src="./images/icon-calendar.svg" alt="todo"> <a href="#">Calendar</a></li>
+                            <li><img src="./images/icon-reminders.svg" alt="todo"> <a href="#">Reminders</a></li>
+                            <li><img src="./images/icon-planning.svg" alt="todo"> <a href="#">Planning</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menuItem" id="company" onclick="myFunction_company()" href="#">Company</a> <img
+                            src="./images/icon-arrow-down.svg" alt="down" class="down_icon">
+                        <ul class="com_nav" id="myDropdown2">
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menuItem" href="#">Careers</a></li>
+                    <li><a class="menuItem" href="#">About</a></li>
+
+                </ul><a href="#">Login</a>
+                <button class="btn"> Register</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container hero">
+                <div class="hero_wrapper">
+                    <h1 class="hero_wrapper_title">
+                        Make Remote Work
+                    </h1>
+                    <p class="hero_wrapper_text">
+                        Get your team in sync, no matter your location.Streamline processes, create team rituals, and
+                        watch productivity soar.
+                    </p>
+
+                    <button class="hero_wrapper_btn">
+                        Learn more
+                    </button>
+                    <div class="hero_wrapper_items">
+                        <img src="./images/client-databiz.svg" alt="item">
+                        <img src="./images/client-audiophile.svg" alt="item">
+                        <img src="./images/client-meet.svg" alt="item">
+                        <img src="./images/client-maker.svg" alt="item">
+                    </div>
+                </div>
+                <div class="hero_img img">
+                    <img src="./images/image-hero-desktop.png" alt="hero">
+                    <img src="./images/image-hero-mobile.png" alt="hero">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
